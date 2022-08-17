@@ -77,7 +77,7 @@ const Home = () => {
                             <img src="" alt="" className="serviceImg"/>
                         </div>
                     </div>
-                    <Link to="/services" className="servicesLink">Learn more about what services we provide</Link>
+                    <Link to="/services" className="servicesLink">Click to learn more about what services we provide</Link>
                 </div>
             </div>
         </div>

@@ -78,7 +78,8 @@
 }
 
 .aboutTitle {
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  font-size: 40pt;
   margin-bottom: 30px;
 }
 
@@ -127,7 +128,7 @@
 }
 
 .servicesTitle {
-  text-decoration: underline;
+  /* text-decoration: underline; */
   margin-bottom: 30px;
 }
 
