@@ -1,0 +1,184 @@
+/* Global defaults */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Fixed contact button */
+.contactLink {
+  position: fixed;
+  top: 25px;
+  right: 25px;
+}
+
+.contactBtn {
+  background-color: Yellow;
+  border: 2px solid black;
+  border-radius: 20px;
+  color: black;
+  padding: 5px 10px;
+  text-align: center;
+}
+
+.contactBtn:hover {
+  background-color: rgb(86, 255, 71);
+}
+
+/* Title bar css */
+.navbar {
+  align-items: center;
+  background-color: green;
+  border-bottom: 3px solid black;
+}
+
+.title {
+  align-items: center;
+}
+
+.logo {
+  border-radius: 50%;
+  position: absolute;
+  height: 70px;
+  width: 70px;
+  top: 12px;
+  left: 15px;
+}
+
+.navBtns {
+  align-items: center;
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+}
+
+.contactLink {
+  text-decoration: none;
+}
+
+.companyName {
+  color: lightgreen;
+  font-family: cursive;
+  padding: 10px;
+  text-align: center;
+  font-size: 40pt;
+}
+
+/* About section */
+.aboutWrapper {
+  background-image: url('https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&w=600');
+  background-size: 100%;
+}
+
+.aboutDiv {
+  align-items: center;
+  color: orange;
+  display: flex;
+  flex-direction: column;
+  padding: 4% 5% 7% 5%;
+}
+
+.aboutTitle {
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.about {
+  align-items: center;
+  display: flex;
+  gap: 30px;
+  justify-content: space-between;
+}
+
+.aboutMsg {
+  font-size: 22pt;
+  font-weight: bold;
+}
+
+.aboutImg {
+  border: 2px solid black;
+  width: 400px;
+}
+
+/* Contact section */
+.contactDiv {
+  display: flex;
+  justify-content: center;
+  padding: 4% 7% 4% 7%;
+}
+
+.contactInfo {
+  color: yellow;
+  font-size: 35pt;
+  text-align: center;
+}
+
+.contactMsg {
+  color: yellow;
+}
+
+/* Services Section */
+.servicesDiv {
+  color: orange;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2% 9% 5% 9%;
+  text-align: center;
+}
+
+.servicesTitle {
+  text-decoration: underline;
+  margin-bottom: 30px;
+}
+
+.serviceTypes {
+  display: flex;
+  justify-content: space-around;
+  gap: 200px;
+  margin-bottom: 50px;
+}
+
+.service {
+  background-color: grey;
+  border: 3px solid black;
+  color: black;
+  flex: 1;
+}
+
+.servTitle {
+  text-decoration: underline;
+  margin-bottom: 10px;
+}
+
+.imgSlt {
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.before {
+  background-color: greenyellow;
+  width: 100%;
+}
+
+.after {
+  background-color: green;
+  width: 100%;
+}
+
+.servicesLink {
+  color: orange;
+  font-size: 35pt;
+}
+
+.serviceImg {
+  margin-bottom: 350px;
+}
+
+
+
+/* Test line */
+.test {
+  margin-top: 5000px;
+}
