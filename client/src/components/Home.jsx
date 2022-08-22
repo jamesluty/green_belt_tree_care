@@ -11,10 +11,8 @@ const Home = () => {
             
             {/* Title bar */}
             <div className="navbar">
-                <div className="title">
-                    <img className="logo" src={tree_logo} alt="logo"/>
-                    <h1 className="companyName">Green Belt Tree Care LLC</h1>
-                </div>
+                <img className="logo" src={tree_logo} alt="logo"/>
+                <h1 className="companyName">Green Belt Tree Care LLC</h1>
             </div>
 
             {/* About section */}
