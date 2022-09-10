@@ -10,7 +10,7 @@ const Home = () => {
     useEffect(() => {
         window.scrollTo(0,0);
     }, [])
-    
+
     const before = () => {
         document.getElementById("before").style.backgroundColor = "greenyellow";
         document.getElementById("after").style.backgroundColor = "green";
@@ -38,7 +38,7 @@ const Home = () => {
                 <div className="aboutDiv">
                     {/* <h1 className="aboutTitle">About Us</h1> */}
                     <div className="about">
-                        <p className="aboutMsg">Green Belt Tree Care is a minority owned and operated tree care company based out of Auburn, WA. Licensed and Bonded. We are committed to providing top quality tree care services throughout western washington. We offer a range of services from tree trimming, tree removal, stump grinding and many more. We also offer 24 hour emergency services.</p>
+                        <p className="aboutMsg">Green Belt Tree Care is a Native American owned and operated tree care company based out of Auburn, WA. We are Licensed, Insured and Bonded. We are committed to providing top quality tree care services throughout western washington. We offer a range of services from tree trimming, tree removal, stump grinding and many more. We also offer 24 hour emergency services.</p>
                         <img src={wyatt} alt="image_not_found" className="aboutImg"/>
                     </div>
                 </div>
