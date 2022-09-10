@@ -81,7 +81,7 @@ const Home = () => {
                             <img src={tree_before} alt="image_not_available" className="serviceImg"/>
                         </div>
                         <div className="service">
-                            <h2 className="servTitle">Pruning</h2>
+                            <h2 className="servTitle">Tree Pruning</h2>
                                 <div className="imgSlt">
                                 <h2 onClick={before} id="before">Before</h2>
                                 <h2 onClick={after} id="after">After</h2>
