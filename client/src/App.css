@@ -64,10 +64,14 @@
 }
 
 /* About section */
-.aboutWrapper {
+.bodyWrapper {
   background-image: url('https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&w=600');
-  background-size: 105%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  color: orange;
 }
+
 
 .aboutDiv {
   align-items: center;
@@ -128,7 +132,6 @@
 }
 
 .servicesTitle {
-  /* text-decoration: underline; */
   font-size: 30pt;
   margin-bottom: 50px;
 }
@@ -136,18 +139,21 @@
 .serviceTypes {
   display: flex;
   justify-content: space-around;
-  gap: 200px;
+  gap: 100px;
   margin-bottom: 50px;
 }
 
 .service {
-  background-color: gainsboro;
-  border: 3px solid black;
   color: black;
   flex: 1;
 }
 
+.serviceImgDiv {
+  border: 3px solid black;
+}
+
 .servTitle {
+  color: orange;
   margin-bottom: 10px;
 }
 
@@ -158,13 +164,15 @@
   justify-content: space-evenly;
 }
 
-.before {
+#before {
   background-color: greenyellow;
+  cursor: pointer;
   width: 100%;
 }
 
-.after {
+#after {
   background-color: green;
+  cursor: pointer;
   width: 100%;
 }
 
@@ -174,10 +182,14 @@
 }
 
 .serviceImg {
-  margin-bottom: 350px;
+  width: 100%;
 }
 
 /* Contact Us Page */
+.contactWrapper {
+  padding-bottom: 50px;
+}
+
 .homeBtn {
   background-color: greenyellow;
   border-radius: 20px;
@@ -185,31 +197,54 @@
   font-weight: bold;
   padding: 5px 15px;
   position: absolute;
-  top: 30px;
+  top: 25px;
   right: 30px;
 }
 
 .contactTitle {
   font-size: 30pt;
-  margin-top: 40px;
+  padding-top: 40px;
   text-align: center;
 }
 
 .contactSubTitle {
-  font-size: 15pt;
+  font-size: 18pt;
   margin-top: 20px;
   text-align: center;
 }
 
-label {
+.formLabel {
   flex: 1;
+  font-size: 20pt;
   margin-right: 10px;
 }
 
-input {
+.formInput {
   flex: 2;
   font-size: 15pt;
   height: 100%;
+  padding: 0px 5px;
+}
+
+.formTextarea {
+  flex: 2;
+  font-size: 15pt;
+  padding: 0px 5px;
+  overflow: auto;
+}
+
+.submitDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.formSubmit {
+  background-color: lightblue;
+  border-radius: 25px;
+  /* color: white; */
+  font-size: 15pt;
+  font-weight: bold;
+  padding: 5px 30px;
 }
 
 .requestFormDiv {
@@ -219,11 +254,12 @@ input {
 }
 
 .requestForm {
+  background-color: whitesmoke;
   border: 3px solid black;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  padding: 40px 20px;
+  padding: 20px 20px;
   font-size: 20pt;
   width: 60%;
 }
@@ -234,17 +270,96 @@ input {
   gap: 10px;
 }
 
-.nameRow {
-  display: flex;
-  flex: 1;
-}
-
 .formInput {
   display: flex;
 }
 
+/* Services Page */
+.serviceWrapper {
+  background-color: rgb(27,38,59);
+  text-align: center;
+  padding-bottom: 50px;
+}
 
-/* Test line */
-.test {
-  margin-top: 5000px;
+.serviceTitle {
+  color: gainsboro;
+  font-size: 35pt;
+  padding-top: 50px;
+}
+
+.servicesInfoDiv {
+  margin: 30px 5% 0px 5%;
+}
+
+.serviceType {
+  background-color: gainsboro;
+  border: 3px solid black;
+  margin-top: 40px;
+  padding: 10px;
+  padding-bottom: 20px;
+}
+
+.serviceName {
+  margin-bottom: 10px;
+}
+
+/* Site Map Section */
+.mapWrapper {
+  background-color: black;
+  color: orange;
+  font-size: 15pt;
+  padding: 20px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.mapTitle {
+  /* color: green; */
+  font-size: 35pt;
+  text-align: center;
+}
+
+.mapHeader {
+  margin-bottom: 15px;
+  text-decoration: underline;
+}
+
+.mapHr {
+  margin: 30px 0px;
+}
+
+.mapDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.bbbImg {
+  height: 100px;
+  margin-top: 30px;
+}
+
+.emergencyService {
+  color: yellow;
+  font-size: 40pt;
+  font-weight: bold;
+}
+
+.socialLogo {
+  cursor: pointer;
+  width: 75px;
+}
+
+.mapLink {
+  color: orange;
+}
+
+.logosDiv {
+  display: flex;
+  justify-content: center;
+}
+
+.footer {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-around;
 }
