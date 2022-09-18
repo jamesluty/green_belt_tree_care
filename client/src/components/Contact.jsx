@@ -12,8 +12,10 @@ const Contact = () => {
     const [nameError, setNameError] = useState(false);
     const [numberError, setNumberError] = useState(false);
     const [emailError, setEmailError] = useState(false);
+    const [validEmailError, setValidEmailError] = useState(false);
     const [messageError, setMessageError] = useState(false);
     let valid = true;
+    let validEmail = false;
     const navigate = useNavigate();
     const form = useRef();
 
@@ -29,6 +31,11 @@ const Contact = () => {
     // Navigation Home button
     const goHome = () => {
         navigate("/");
+    }
+
+    // Validate Email
+    const isValidEmail = (email) => {
+        return /\S+@\S+\.\S+/.test(email)
     }
 
     // Validate inputs
@@ -48,12 +55,22 @@ const Contact = () => {
             setNumberError(false);
         }
 
+        validEmail = isValidEmail(email);
+
+        if(!validEmail) {
+            setValidEmailError(true);
+        } else {
+            setValidEmailError(false);
+        }
+
         if (email.length<1){
             setEmailError(true);
             valid = false;
         } else {
             setEmailError(false);
         }
+
+
 
         if (message.length<1){
             setMessageError(true);
@@ -114,8 +131,8 @@ const Contact = () => {
                         <div className="formInput">
                             <label className="formLabel">Email:*</label>
                             <div className="inputDiv">
-                                <input className="formInput" type="text" name="email" onChange={(e) => setEmail(e.target.value)}  value={email}/>
-                                {emailError ? <p className="error">Email is Required!</p> : ""}
+                                <input className="formInput" type="email" name="email" onChange={(e) => setEmail(e.target.value)}  value={email}/>
+                                {emailError ? <p className="error">Email is Required!</p> : validEmailError ? <p className="error">Email is invalid!</p> : ""}
                             </div>
                         </div>
                         {/* Contact Method input */}
