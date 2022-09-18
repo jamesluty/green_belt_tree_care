@@ -4,10 +4,12 @@ import Home from './components/Home';
 import Contact from './components/Contact';
 import Services from './components/Services';
 import SiteMap from './components/SiteMap';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
     <div>
+      <Navbar />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/contact" exact element={<Contact />} />

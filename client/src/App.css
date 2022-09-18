@@ -63,6 +63,31 @@
   font-size: 40pt;
 }
 
+/* Slogan Section */
+.sloganDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px 7% 40px 7%;
+}
+
+.slogan {
+  color: gainsboro;
+  font-size: 25pt;
+  text-align: center;
+}
+
+.mainImg {
+  display: flex;
+  justify-content: center;
+  padding-top: 80px;
+}
+
+.forest {
+  height: 600px;
+  width: 80%;
+}
+
 /* About section */
 .bodyWrapper {
   background-image: url('https://images.pexels.com/photos/192136/pexels-photo-192136.jpeg?auto=compress&cs=tinysrgb&w=600');
@@ -75,15 +100,16 @@
 
 .aboutDiv {
   align-items: center;
-  color: orange;
+  color: gainsboro;
   display: flex;
   flex-direction: column;
-  padding: 4% 5% 7% 5%;
+  padding: 30px 5% 7% 5%;
 }
 
 .aboutTitle {
   /* text-decoration: underline; */
-  font-size: 40pt;
+  color: orange;
+  font-size: 30pt;
   margin-bottom: 30px;
 }
 
@@ -121,7 +147,26 @@
   color: yellow;
 }
 
-/* Services Section */
+/* Maintenance Section */
+.maintenanceDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 7% 40px 7%;
+}
+
+.maintenanceTitle {
+  font-size: 30pt;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.maintenanceDesc {
+  color: gainsboro;
+  font-size: 25pt;
+}
+
+/* Before and After Section */
 .servicesDiv {
   color: orange;
   display: flex;
@@ -219,17 +264,38 @@
   margin-right: 10px;
 }
 
+.inputDiv {
+  flex: 2;
+  display: flex;
+  height: 110%;
+  flex-direction: column;
+}
+
+.error {
+  color: red;
+  font-size: 12pt;
+}
+
 .formInput {
   flex: 2;
   font-size: 15pt;
+  gap: 50px;
   height: 100%;
-  padding: 0px 5px;
+  padding: 5px 5px;
+}
+
+.selectInput {
+  flex: 2;
+  font-size: 15pt;
+  gap: 20px;
+  height: 100%;
+  padding: 8px 0px;
 }
 
 .formTextarea {
   flex: 2;
   font-size: 15pt;
-  padding: 0px 5px;
+  padding: 5px 5px;
   overflow: auto;
 }
 
@@ -250,7 +316,7 @@
 .requestFormDiv {
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  margin: 30px 0px 30px 0px;
 }
 
 .requestForm {
@@ -276,23 +342,24 @@
 
 /* Services Page */
 .serviceWrapper {
-  background-color: rgb(27,38,59);
+  /* background-color: rgb(27,38,59); */
   text-align: center;
   padding-bottom: 50px;
 }
 
 .serviceTitle {
-  color: gainsboro;
+  /* color: gainsboro; */
   font-size: 35pt;
   padding-top: 50px;
 }
 
 .servicesInfoDiv {
+  /* border: 3px solid black; */
   margin: 30px 5% 0px 5%;
 }
 
 .serviceType {
-  background-color: gainsboro;
+  /* background-color: gainsboro; */
   border: 3px solid black;
   margin-top: 40px;
   padding: 10px;
@@ -344,9 +411,14 @@
   font-weight: bold;
 }
 
-.socialLogo {
+.yelpLogo {
   cursor: pointer;
-  width: 75px;
+  height: 75px;
+}
+
+.instaLogo {
+  cursor: pointer;
+  height: 75px;
 }
 
 .mapLink {
@@ -355,11 +427,27 @@
 
 .logosDiv {
   display: flex;
+  gap: 20px;
   justify-content: center;
 }
 
 .footer {
   align-items: flex-end;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
+}
+
+.isaImgDiv {
+  flex: 1;
+}
+
+.isaImg {
+  border-radius: 5px;
+}
+
+.mapDetailDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 5;
 }
