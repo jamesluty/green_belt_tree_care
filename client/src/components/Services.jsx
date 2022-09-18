@@ -1,6 +1,5 @@
 import React, {useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
-import tree_logo from '../imgs/tree_logo.jpg';
 
 const Services = () => {
     const navigate = useNavigate();

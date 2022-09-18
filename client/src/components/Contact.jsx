@@ -1,6 +1,5 @@
 import React, {useRef, useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
-import tree_logo from '../imgs/tree_logo.jpg';
 import emailjs from '@emailjs/browser';
 
 const Contact = () => {

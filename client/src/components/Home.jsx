@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import { Link } from 'react-router-dom';
 import wyatt from '../imgs/wyatt.jpg';
 import tree_before from '../imgs/tree_before.jpg';
-import tree_after from '../imgs/tree_after.jpg';
+// import tree_after from '../imgs/tree_after.jpg';
 import forest_pic from '../imgs/forest_pic.jpg'
 
 const Home = () => {

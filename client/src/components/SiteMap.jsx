@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import BBB_Accredited from '../imgs/BBB_Accredited.jpeg';
 import yelp_logo from '../imgs/yelp-logo.png';
 import insta_logo from '../imgs/insta-logo.png';
 import isa_member from '../imgs/isa_member.png';
