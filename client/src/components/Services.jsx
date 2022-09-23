@@ -15,7 +15,7 @@ const Services = () => {
 
     return (
         <div>
-            <button className="homeBtn" onClick={goHome}>Home</button>
+            {/* <button className="homeBtn" onClick={goHome}>Home</button> */}
 
             <div className="serviceWrapper">
                 <h1 className="serviceTitle">Services We Provide</h1>

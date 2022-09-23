@@ -100,7 +100,7 @@ const Contact = () => {
 
     return (
         <div>
-            <button className="homeBtn" onClick={goHome}>Home</button>
+            {/* <button className="homeBtn" onClick={goHome}>Home</button> */}
 
             {/* Body */}
             <div className="contactWrapper">

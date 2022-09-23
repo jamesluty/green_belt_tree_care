@@ -7,8 +7,12 @@ import isa_member from '../imgs/isa_member.png';
 const SiteMap = () => {
     return (
         <div className="mapWrapper">
+            {/* Site Map Header */}
             <h1 className="mapTitle">Green Belt Tree Care LLC</h1>
+            <h2>Servicing Western Washington Since 2020</h2>
             <hr className="mapHr"/>
+
+            {/* Site Map Body */}
             <div className="mapDiv">
                 <div className="isaImgDiv">
                     <img src={isa_member} alt="isa_member" className="isaImg"/>
@@ -16,7 +20,7 @@ const SiteMap = () => {
                 <div className="mapDetailDiv">
                     <div className="mapDiv">
                         <div>
-                            <h3 className="mapHeader">Website</h3>
+                            <h3 className="mapHeader">Company</h3>
                             <div>
                                 <Link to="/" className="mapLink">Home</Link>
                             </div>

@@ -3,12 +3,13 @@ import { Link } from 'react-router-dom';
 import wyatt from '../imgs/wyatt.jpg';
 import tree_before from '../imgs/tree_before.jpg';
 // import tree_after from '../imgs/tree_after.jpg';
-import forest_pic from '../imgs/forest_pic.jpg'
+import forest from '../imgs/forest.jpg';
+import tree from '../imgs/tree.jpeg'
 
 const Home = () => {
 
     useEffect(() => {
-        window.scrollTo(0,0);
+        // window.scrollTo(0,0);
     }, [])
 
     return (
@@ -18,39 +19,36 @@ const Home = () => {
 
             <div className="bodyWrapper">
                 {/* Image Carousel */}
-                <div className="mainImg">
-                    <img src={forest_pic} alt="tree_pic" className="forest"/>
+                <div style={{ backgroundImage: `url(${forest})` }} className="bannerDiv">
+                    <h1 className="bannerHeader">Need help with taking care of your trees?</h1>
+                    <h2 className="bannerSubText">With over 10 years of experience we are here to help take care of your tree care needs.</h2>
+                    <p className="bannerDetails">We provide a range of services such trimming, pruning, tree removal, stump grinding and more.</p>
+                    {/* <h1 className="slogan">We'll go out on a limb for you.</h1> */}
                 </div>
-
-                {/* Header/Slogan */}
-                <div className="sloganDiv">
-                    <h1 className="slogan">Green Belt Tree Care has been servicing Western Washington since 2020.</h1>
-                    <h1 className="slogan">We'll go out on a limb for you.</h1>
-                </div>
-                <hr />
 
                 {/* About section */}
                 <div className="aboutDiv">
-                    <h1 className="aboutTitle">About Us</h1>
                     <div className="about">
-                        <p className="aboutMsg">Green Belt Tree Care is a Native American owned and operated tree care company based out of Auburn, WA. We are Licensed, Insured and Bonded. We are committed to providing top quality tree care services throughout western washington. We offer a range of services from tree trimming, tree removal, stump grinding and many more. We also offer 24 hour emergency services.</p>
+                        <div className="aboutDetails">
+                            <h1 className="aboutTitle">About Us</h1>
+                            <p className="aboutMsg">Green Belt Tree Care is a Native American owned and operated tree care company based out of Auburn, WA. We are Licensed, Insured and Bonded. We are committed to providing top quality tree care services throughout western washington. We offer a range of services from tree trimming, tree removal, stump grinding and many more. We also offer 24 hour emergency services.</p>
+                        </div>
                         <img src={wyatt} alt="image_not_found" className="aboutImg"/>
                     </div>
                 </div>
-                <hr />
 
                 {/* Tree Maintenance */}
                 <div className="maintenanceDiv">
-                    <h1 className="maintenanceTitle">Why is Tree Maintenance so Important?</h1>
-                    <p className="maintenanceDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    <div className="maintenance">
+                        <h1 className="maintenanceTitle">Why is Tree Maintenance so Important?</h1>
+                        <p className="maintenanceDesc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                    </div>
                 </div>
-                <hr />
 
                 {/* Contact section */}
                 <div className="contactDiv">
                     <p className="contactInfo">To request a free quote please contact us at 206-531-6525 or <Link to="/contact" className="contactMsg">send us a messge.</Link></p>
                 </div>
-                <hr />
 
                 {/* Service section */}
                 <div className="servicesDiv">
