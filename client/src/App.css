@@ -62,12 +62,13 @@
 .links {
   display: flex;
   justify-content: center;
-  gap: 75px;
+  gap: 50px;
   margin-bottom: 15px;
 }
 
 .link {
-  color: orangered;
+  color: rgb(216, 58, 0);
+  font-size: 17pt;
   text-decoration: underline;
 }
 
@@ -81,7 +82,7 @@
 
 /* Body */
 .bodyWrapper {
-  background-color: rgb(223, 223, 223);
+  background-color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -257,17 +258,40 @@
   background-size: contain;
   background-position: center;
   color: white;
+  padding: 20px 40px;
   width: 100%;
 }
 
-.imageBefore {
+#trimBefore, #pruneBefore, #removeBefore, #stumpBefore {
+  display: inherit;
+  height: 500px;
   width: 40%;
 }
 
+#trimAfter, #pruneAfter, #removeAfter, #stumpAfter {
+  height: 500px;
+  width: 40%;
+  display: none;
+}
+
+.fade {
+  animation-name: fade;
+  animation-duration: 1s;
+}
+
+@keyframes fade {
+  from {opacity: .2}
+  to {opacity: 1}
+}
+
 .servTitle {
-  color: orange;
-  margin-bottom: 10px;
+  color: White;
+  margin-bottom: 40px;
   text-align: center;
+}
+
+.serviceDetails {
+  font-size: 15pt;
 }
 
 .servicesLink {

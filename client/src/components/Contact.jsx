@@ -27,11 +27,6 @@ const Contact = () => {
     const templateId = "template_zm3gvfh";
     const serviceId = "service_1n9bmqw";
 
-    // Navigation Home button
-    const goHome = () => {
-        navigate("/");
-    }
-
     // Validate Email
     const isValidEmail = (email) => {
         return /\S+@\S+\.\S+/.test(email)
@@ -68,8 +63,6 @@ const Contact = () => {
         } else {
             setEmailError(false);
         }
-
-
 
         if (message.length<1){
             setMessageError(true);
