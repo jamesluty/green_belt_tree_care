@@ -25,7 +25,7 @@
   background-color: rgb(86, 255, 71);
 }
 
-/* Title bar css */
+/* Navbar css */
 .navbar {
   align-items: center;
   background-image: radial-gradient(lightgreen, rgb(124, 218, 124), rgb(4, 156, 4));
@@ -70,7 +70,7 @@
 .link {
   color: rgb(216, 58, 0);
   font-size: 17pt;
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 .link:hover {
@@ -79,6 +79,28 @@
 
 .contactLink {
   text-decoration: none;
+}
+
+#dropdown {
+  display: none;
+}
+
+.serviceDropdown {
+  position: absolute;
+  padding-top: 5px;
+}
+
+.dropdownItem {
+  background-color: rgb(0, 211, 0);
+  font-size: 20px;
+  font-weight: 500;
+  list-style: none;
+  padding: 10px 10px;
+}
+
+.dropdownItem:hover {
+  background-color: rgb(36, 241, 36);
+  /* color: white; */
 }
 
 /* Body */
