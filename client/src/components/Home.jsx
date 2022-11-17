@@ -10,7 +10,7 @@ import tree_background from '../imgs/tree_background.png';
 const Home = () => {
 
     useEffect(() => {
-        // window.scrollTo(0,0);
+        window.scrollTo(0,0);
 
         let img = 'imageBefore';
         setInterval(() => {
@@ -44,12 +44,12 @@ const Home = () => {
             <Link to="/contact" className="contactLink"><h3 className="contactBtn">Contact Us</h3></Link>
 
             <div className="bodyWrapper">
-                {/* Image Carousel */}
+                {/* Banner section */}
                 <div style={{ backgroundImage: `url(${forest})` }} className="bannerDiv">
                     <h1 className="bannerHeader">Need help with taking care of your trees?</h1>
                     <h2 className="bannerSubText">With over 10 years of experience we are here to help you with your tree care needs.</h2>
                     <p className="bannerDetails">We provide a range of services such trimming, pruning, tree removal, stump grinding and more.</p>
-                    {/* <h1 className="slogan">We'll go out on a limb for you.</h1> */}
+                    {/* <h1 className="slogan">Green Belt Tree Care. We'll go out on a limb for you.</h1> */}
                 </div>
 
                 {/* Contact section */}
@@ -78,7 +78,7 @@ const Home = () => {
                             <ol className="maintenanceList">
                                 <li>Preventative tree maintenance will improve the overall structure of your trees, keeping them from developing weak branching habits.</li>
                                 <li>Trimming prevents limbs from growing weak crotches or eventually crossing each other and competing for space.</li>
-                                <li>Removing dead or dying limbs reduces the stree on the tree by elimating fuel for burrowing insects, fungus and bacteria.</li>
+                                <li>Removing dead or dying limbs reduces the stress on the tree by elimating fuel for burrowing insects, fungus and bacteria.</li>
                                 <li>If dead branches break off and fall they can potentially cause damage to property or injury to someone.</li>
                                 <li>A trimmed tree is more aethetically pleasing and can improve the appearance of your property and increase it's value.</li>
                             </ol>

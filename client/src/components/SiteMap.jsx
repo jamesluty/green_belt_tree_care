@@ -9,7 +9,7 @@ const SiteMap = () => {
         <div className="mapWrapper">
             {/* Site Map Header */}
             <h1 className="mapTitle">Green Belt Tree Care LLC</h1>
-            <h2>Servicing Western Washington Since 2020</h2>
+            <h2>Licenced, Bonded and Insured</h2>
             <hr className="mapHr"/>
 
             {/* Site Map Body */}
