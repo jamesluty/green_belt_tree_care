@@ -93,8 +93,6 @@ const Contact = () => {
 
     return (
         <div>
-            {/* <button className="homeBtn" onClick={goHome}>Home</button> */}
-
             {/* Body */}
             <div className="contactWrapper">
                 <h1 className="contactTitle">Contact Us</h1>

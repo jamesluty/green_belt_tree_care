@@ -18,7 +18,9 @@ const Navbar = () => {
             <div className="links">
                 <Link to="/" className="link"><h2 className="link">Home</h2></Link>
                 <div onMouseOver={showDropdown} onMouseOut={hideDropdown}>
-                    <Link to="/services" className="link"><h2 className="link">Services</h2></Link>
+                    <div className="serviceNav">
+                        <h2 className="link">Services</h2>
+                    </div>
                     <div id="dropdown">
                         <ul className="serviceDropdown">
                             <li className="dropdownItem">Tree Trimming</li>

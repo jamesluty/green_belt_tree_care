@@ -37,7 +37,7 @@
   font-family: cursive;
   padding: 10px;
   text-align: center;
-  font-size: 40pt;
+  font-size: 55px;
 }
 
 .title {
@@ -60,6 +60,12 @@
   margin-right: 10px;
 }
 
+.serviceNav {
+  align-items: flex-end;
+  display: flex;
+  gap: 5px;
+}
+
 .links {
   display: flex;
   justify-content: center;
@@ -69,7 +75,7 @@
 
 .link {
   color: rgb(216, 58, 0);
-  font-size: 17pt;
+  font-size: 23px;
   text-decoration: none;
 }
 
@@ -92,7 +98,7 @@
 
 .dropdownItem {
   background-color: rgb(0, 211, 0);
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 500;
   list-style: none;
   padding: 10px 10px;
@@ -164,7 +170,7 @@
 
 .contactInfo {
   color: gold;
-  font-size: 25pt;
+  font-size: 35px;
   text-align: center;
 }
 
@@ -189,7 +195,7 @@
 
 .aboutTitle {
   color: white;
-  font-size: 20pt;
+  font-size: 30px;
   margin-bottom: 10px;
   text-align: center;
   margin-top: 10px;
@@ -205,7 +211,7 @@
 }
 
 .aboutMsg {
-  font-size: 15pt;
+  font-size: 20px;
 }
 
 .aboutImg {
@@ -233,18 +239,18 @@
 }
 
 .maintenanceTitle {
-  font-size: 20pt;
+  font-size: 30px;
   margin-bottom: 20px;
 }
 
 .maintenanceDesc {
   color: white;
-  font-size: 15pt;
+  font-size: 20px;
 }
 
 .maintenanceList {
   color: white;
-  font-size: 15pt;
+  font-size: 20px;
   padding: 20px;
   margin-left: 40px;
 }
@@ -274,8 +280,8 @@
   /* background-image: radial-gradient(rgb(172, 172, 172), rgb(134, 134, 134), rgb(56, 56, 56)); */
   /* color: gold; */
   font-size: 45px;
-  /* margin: 20px 0px 20px 0px; */
-  padding: 40px;
+  /* margin: 20px 0px 40px 0px; */
+  padding: 30px;
 }
 
 .differenceSection {
@@ -320,18 +326,18 @@
 
 .servTitle {
   color: White;
-  font-size: 20pt;
+  font-size: 30px;
   margin-bottom: 40px;
   text-align: center;
 }
 
 .serviceDetails {
-  font-size: 15pt;
+  font-size: 20px;
 }
 
 .servicesLink {
   color: orange;
-  font-size: 35pt;
+  font-size: 40px;
 }
 
 /* Contact Us Page */
@@ -339,32 +345,21 @@
   padding-bottom: 50px;
 }
 
-.homeBtn {
-  background-color: greenyellow;
-  border-radius: 20px;
-  font-size: 15pt;
-  font-weight: bold;
-  padding: 5px 15px;
-  position: absolute;
-  top: 25px;
-  right: 30px;
-}
-
 .contactTitle {
-  font-size: 30pt;
-  padding-top: 40px;
+  font-size: 35px;
+  padding-top: 30px;
   text-align: center;
 }
 
 .contactSubTitle {
-  font-size: 18pt;
+  font-size: 23px;
   margin-top: 20px;
   text-align: center;
 }
 
 .formLabel {
   flex: 1;
-  font-size: 20pt;
+  font-size: 25px;
   margin-right: 10px;
 }
 
@@ -377,12 +372,12 @@
 
 .error {
   color: red;
-  font-size: 12pt;
+  font-size: 18px;
 }
 
 .formInput {
   flex: 2;
-  font-size: 15pt;
+  font-size: 20px;
   gap: 50px;
   height: 100%;
   padding: 5px 5px;
@@ -390,7 +385,7 @@
 
 .selectInput {
   flex: 2;
-  font-size: 15pt;
+  font-size: 20px;
   gap: 20px;
   height: 100%;
   padding: 8px 0px;
@@ -398,7 +393,7 @@
 
 .formTextarea {
   flex: 2;
-  font-size: 15pt;
+  font-size: 20px;
   padding: 5px 5px;
   overflow: auto;
 }
@@ -412,7 +407,7 @@
   background-color: blue;
   border-radius: 25px;
   color: white;
-  font-size: 15pt;
+  font-size: 20px;
   font-weight: bold;
   padding: 5px 30px;
 }
@@ -435,7 +430,6 @@
   flex-direction: column;
   gap: 20px;
   padding: 20px 20px;
-  font-size: 20pt;
   width: 60%;
 }
 
@@ -491,7 +485,7 @@
 
 .mapTitle {
   color: lightgreen;
-  font-size: 35pt;
+  font-size: 43px;
   text-align: center;
 }
 
@@ -516,7 +510,7 @@
 
 .emergencyService {
   color: orange;
-  font-size: 40pt;
+  font-size: 45px;
   font-weight: bold;
 }
 
