@@ -1,4 +1,5 @@
 import React, {useEffect} from 'react';
+import {Link} from 'react-router-dom'
 
 const Services = () => {
 
@@ -8,37 +9,16 @@ const Services = () => {
 
     return (
         <div>
-            <div className="serviceWrapper">
-                <h1 className="serviceTitle">Services We Provide</h1>
-
-                {/* Services Description */}
-                <div className="servicesInfoDiv">
-                    <div className="serviceType">
-                        <h1 className="serviceName">Tree Trimming</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    <hr />
-                    <div className="serviceType">
-                        <h1 className="serviceName">Tree Pruning</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    <hr />
-                    <div className="serviceType">
-                        <h1 className="serviceName">Tree Removal</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    <hr />
-                    <div className="serviceType">
-                        <h1 className="serviceName">Stump Grinding</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                    <hr />
-                    <div className="serviceType">
-                        <h1 className="serviceName">Cabling</h1>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-            </div>
+            <h2 className="serviceListTitle">Service Categories</h2>
+            <ul>
+                <li className="serviceList"><Link to="/services/tree-trimming" className="serviceLinks">Tree Trimming</Link></li>
+                <li className="serviceList"><Link to="/services/tree-removal" className="serviceLinks">Tree Removal</Link></li>
+                <li className="serviceList"><Link to="/services/ornmental-pruning" className="serviceLinks">Ornmental Pruning</Link></li>
+                <li className="serviceList"><Link to="/services/crown-raising" className="serviceLinks">Crown Raising</Link></li>
+                <li className="serviceList"><Link to="/services/crown-reduction" className="serviceLinks">Crown Reduction</Link></li>
+                <li className="serviceList"><Link to="/services/cabling" className="serviceLinks">Cabling</Link></li>
+                <li className="serviceList"><Link to="/services/stump-grinding" className="serviceLinks">Strump Grinding</Link></li>
+            </ul>
         </div>
     )
 }

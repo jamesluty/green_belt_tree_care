@@ -54,7 +54,7 @@ const Home = () => {
 
                 {/* Contact section */}
                 <div className="contactDiv">
-                    <p className="contactInfo">To request a free quote please contact us at 206-531-6525<br/> or <Link to="/contact" className="contactMsg">send us a messge.</Link></p>
+                    <p className="contactInfo">To request a free quote please contact us at 206-531-6525<br/> or <Link to="/contact" className="contactMsg">send us a message.</Link></p>
                 </div>
 
                 {/* About section */}

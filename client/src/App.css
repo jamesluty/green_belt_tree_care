@@ -76,7 +76,7 @@
 .link {
   color: rgb(216, 58, 0);
   font-size: 23px;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .link:hover {
@@ -443,33 +443,75 @@
   display: flex;
 }
 
-/* Services Page */
-.serviceWrapper {
-  /* background-color: rgb(27,38,59); */
-  text-align: center;
-  padding-bottom: 50px;
-}
-
+/* Tree Trimming */
 .serviceTitle {
-  /* color: gainsboro; */
-  font-size: 35pt;
+  font-size: 40px;
   padding-top: 30px;
+  text-align: center;
 }
 
-.servicesInfoDiv {
-  /* border: 3px solid black; */
-  margin: 30px 3% 0px 3%;
+.serviceSection {
+  display: flex;
+  gap: 100px;
+  margin: 40px 150px;
 }
 
-.serviceType {
-  background-color: rgb(236, 234, 234);
-  border: 3px solid black;
-  margin-top: 40px;
-  padding: 10px;
-  padding-bottom: 20px;
+.serviceLeft {
+  flex: 3;
 }
 
-.serviceName {
+.serviceRight {
+  flex: 1;
+}
+
+.serviceDesc {
+  font-size: 20px;
+  padding: 10px 0px;
+}
+
+.serviceBlock {
+  margin-bottom: 30px;
+}
+
+.trimmingDiagram {
+  margin: 20px 0px;
+}
+
+.diagramTitle {
+  text-align: center;
+}
+
+.diagramCredit {
+  text-align: center;
+  font-style: italic;
+}
+
+.trimmingImg {
+  display: flex;
+  justify-content: center;
+}
+
+.trimList {
+  font-size: 22px;
+  margin-top: 10px;
+}
+
+
+/* Services Links */
+.serviceListTitle {
+  color: rgb(255, 145, 0);
+  margin-bottom: 15px;
+}
+
+.serviceLinks {
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.serviceList {
+  list-style: none;
   margin-bottom: 10px;
 }
 

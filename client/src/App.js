@@ -5,6 +5,7 @@ import Contact from './components/Contact';
 import Services from './components/Services';
 import SiteMap from './components/SiteMap';
 import Navbar from './components/Navbar';
+import Trimming from './components/Trimming';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/contact" exact element={<Contact />} />
-        <Route path="/services" exact element={<Services />} />
+        <Route path="/services/tree-trimming" exact element={<Trimming />} />
         <Route path="*" exact element={<Navigate to="/"/>}/>
       </Routes>
       <SiteMap />

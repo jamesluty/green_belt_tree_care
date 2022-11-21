@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import yelp_logo from '../imgs/yelp-logo.png';
 import insta_logo from '../imgs/insta-logo.png';
 import isa_member from '../imgs/isa_member.png';
+import BBB_Accredited from '../imgs/BBB_Accredited.jpeg'
 
 const SiteMap = () => {
     return (
@@ -20,13 +21,13 @@ const SiteMap = () => {
                 <div className="mapDetailDiv">
                     <div className="mapDiv">
                         <div>
-                            <h3 className="mapHeader">Company</h3>
+                            <h3 className="mapHeader">Site Links</h3>
                             <div>
                                 <Link to="/" className="mapLink">Home</Link>
                             </div>
-                            <div>
+                            {/* <div>
                                 <Link to="/services" className="mapLink">Services</Link>
-                            </div>
+                            </div> */}
                             <div>
                                 <Link to="contact" className="mapLink">Contact Us</Link>
                             </div>
@@ -48,8 +49,8 @@ const SiteMap = () => {
                         </div>
                     </div>
                     <div className="footer">
-                        {/* <img src={BBB_Accredited} alt="image_unavailable"  className="bbbImg"/> */}
                         <h1 className="emergencyService">24 Hour Emergency Service</h1>
+                        {/* <img src={BBB_Accredited} alt="image_unavailable"  className="bbbImg"/> */}
                     </div>
                 </div>
             </div>
