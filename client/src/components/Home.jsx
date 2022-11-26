@@ -85,7 +85,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <hr  className="diffSep"/>
+                <hr className="diffSep"/>
 
                 {/* Service section */}
                 <div className="differenceDiv">
@@ -124,7 +124,7 @@ const Home = () => {
                                 <img src={tree_before} alt="image_not_available" id="stumpBefore" className="fade"/>
                                 <img src={tree_after} alt="image_not_available" id="stumpAfter" className="fade"/>
                             </div>
-                            <Link to="/services" className="servicesLink">Learn more about what services we provide</Link>
+                            {/* <Link to="/services" className="servicesLink">Learn more about what services we provide</Link> */}
                         </div>
                     </div>
                 </div>

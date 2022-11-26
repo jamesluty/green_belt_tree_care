@@ -23,8 +23,13 @@ const Navbar = () => {
                     </div>
                     <div id="dropdown">
                         <ul className="serviceDropdown">
-                            <li className="dropdownItem"><Link to="/services/tree-trimming">Tree Trimming</Link></li>
-                            <li className="dropdownItem">Ornamental Pruning</li>
+                            <Link to="/services/tree-trimming" className="navServLink"><li className="dropdownItem">Tree Trimming</li></Link>
+                            <Link to="/service/tree-removal" className="navServLink"><li className="dropdownItem">Tree Removal</li></Link>
+                            <Link to="/service/ornamental-pruning" className="navServLink"><li className="dropdownItem">Ornamental Pruning</li></Link>
+                            <Link to="/service/crown-raising" className="navServLink"><li className="dropdownItem">Crown Raising</li></Link>
+                            <Link to="/service/crown-reduction" className="navServLink"><li className="dropdownItem">Crown Reduction</li></Link>
+                            <Link to="/service/cabling" className="navServLink"><li className="dropdownItem">Cabling</li></Link>
+                            <Link to="/service/stump-grinding" className="navServLink"><li className="dropdownItem">Stump Grinding</li></Link>
                         </ul>
                     </div>
                 </div>
