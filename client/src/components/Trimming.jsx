@@ -23,7 +23,7 @@ const Trimming = () => {
                             <p className="serviceDesc">There are many things we should look for when it comes to properly trimming a tree. Here is a list of everything that is involved in properly trimming a tree.</p>
                             <div className="trimmingDiagram">
                                 <h3 className="diagramTitle">Tree Trimming Diagram</h3>
-                                <div className="trimmingImg">
+                                <div className="serviceImg">
                                     <img src={tree_trimming_diagram} alt="trimming_diagram" />
                                 </div>
                                 <p className="diagramCredit">Illustration of Reasons to prune trees (red branches to be removed)</p>

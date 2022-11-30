@@ -472,7 +472,7 @@
 
 .serviceDesc {
   font-size: 17px;
-  padding: 20px 0px 10px 0px;
+  padding: 20px 0px 20px 0px;
   line-height: 30px;
 }
 
@@ -493,14 +493,14 @@
   font-style: italic;
 }
 
-.trimmingImg {
+.serviceImg {
   display: flex;
   justify-content: center;
 }
 
 .itemList {
   font-size: 22px;
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 /* Tree Removal Page */
@@ -516,10 +516,21 @@
   line-height: 30px;
 }
 
+/* Crown Raising page */
+.crownRaisingImg {
+  width: 35%;
+  margin-bottom: 40px;
+}
+
+/* Crown Reduction page */
+.crownReductionImg {
+  margin: 30px 0px;
+}
+
 /* Services Links */
 .serviceListTitle {
-  /* color: rgb(192, 125, 0); */
-  color: orangered;
+  color: rgb(212, 138, 0);
+  /* color: orangered; */
   margin-bottom: 15px;
 }
 
