@@ -20,16 +20,14 @@ function App() {
         <Route path="/" exact element={<Home />} />
         <Route path="/contact" exact element={<Contact />} />
         <Route path="/services/tree-trimming" exact element={<Trimming />} />
-        <Route path="/service/tree-removal" exact element={<Removal />} />
-        <Route path="/service/ornamental-pruning" exact element={<Ornamental />} />
-        <Route path="/service/crown-raising" exact element={<Raising />} />
-        <Route path="/service/crown-reduction" exact element={<Reduction />} />
-        <Route path="/service/cabling" exact element={<Cabling />} />
-        <Route path="/service/stump-grinding" exact element={<Stump />} />
+        <Route path="/services/tree-removal" exact element={<Removal />} />
+        <Route path="/services/ornamental-pruning" exact element={<Ornamental />} />
+        <Route path="/services/crown-raising" exact element={<Raising />} />
+        <Route path="/services/crown-reduction" exact element={<Reduction />} />
+        <Route path="/services/cabling" exact element={<Cabling />} />
+        <Route path="/services/stump-grinding" exact element={<Stump />} />
         <Route path="*" exact element={<Navigate to="/"/>}/>
       </Routes>
-      {/* <hr className="diffSep"/>
-      <Contact /> */}
       <SiteMap />
     </div>
   );

@@ -9,11 +9,11 @@ const Services = () => {
 
     return (
         <div>
-            <h2 className="serviceListTitle">Service Categories</h2>
+            <h2 className="serviceListTitle">Services</h2>
             <ul>
                 <li className="serviceList"><Link to="/services/tree-trimming" className="serviceLinks">Tree Trimming</Link></li>
                 <li className="serviceList"><Link to="/services/tree-removal" className="serviceLinks">Tree Removal</Link></li>
-                <li className="serviceList"><Link to="/services/ornmental-pruning" className="serviceLinks">Ornmental Pruning</Link></li>
+                <li className="serviceList"><Link to="/services/ornamental-pruning" className="serviceLinks">Ornmental Pruning</Link></li>
                 <li className="serviceList"><Link to="/services/crown-raising" className="serviceLinks">Crown Raising</Link></li>
                 <li className="serviceList"><Link to="/services/crown-reduction" className="serviceLinks">Crown Reduction</Link></li>
                 <li className="serviceList"><Link to="/services/cabling" className="serviceLinks">Cabling</Link></li>

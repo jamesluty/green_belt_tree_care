@@ -13,7 +13,7 @@
 }
 
 .contactBtn {
-  background-color: rgb(144, 238, 144);
+  background-color: rgb(77, 255, 0);
   border: 2px solid black;
   border-radius: 20px;
   color: black;
@@ -22,7 +22,7 @@
 }
 
 .contactBtn:hover {
-  background-color: rgb(86, 255, 71);
+  background-color: rgb(16, 189, 0);
 }
 
 /* Navbar css */
@@ -347,8 +347,6 @@
 
 /* Contact Us Page */
 .contactWrapper {
-  background-color: rgb(0, 97, 16);
-  color: white;
   padding-bottom: 50px;
 }
 
@@ -473,9 +471,9 @@
 }
 
 .serviceDesc {
-  font-size: 20px;
-  padding: 10px 0px;
-  margin-left: 25px;
+  font-size: 17px;
+  padding: 20px 0px 10px 0px;
+  line-height: 30px;
 }
 
 .serviceBlock {
@@ -500,20 +498,34 @@
   justify-content: center;
 }
 
-.trimList {
+.itemList {
   font-size: 22px;
-  margin-top: 10px;
+  margin-top: 20px;
 }
 
+/* Tree Removal Page */
+.descList {
+  font-size: 16px;
+  margin-left: 30px;
+  line-height: 35px;
+  /* margin-top: -10px; */
+}
+
+.descHeader {
+  font-size: 17px;
+  margin: 10px 0px;
+  line-height: 30px;
+}
 
 /* Services Links */
 .serviceListTitle {
-  color: rgb(255, 145, 0);
+  color: rgb(197, 112, 1);
   margin-bottom: 15px;
 }
 
 .serviceLinks {
-  color: rgb(49, 35, 255);
+  /* color: rgb(49, 35, 255); */
+  color: black;
   font-size: 20px;
   font-weight: bold;
   text-decoration: none;

@@ -24,12 +24,12 @@ const Navbar = () => {
                     <div id="dropdown">
                         <ul className="serviceDropdown">
                             <Link to="/services/tree-trimming" className="navServLink"><li className="dropdownItem">Tree Trimming</li></Link>
-                            <Link to="/service/tree-removal" className="navServLink"><li className="dropdownItem">Tree Removal</li></Link>
-                            <Link to="/service/ornamental-pruning" className="navServLink"><li className="dropdownItem">Ornamental Pruning</li></Link>
-                            <Link to="/service/crown-raising" className="navServLink"><li className="dropdownItem">Crown Raising</li></Link>
-                            <Link to="/service/crown-reduction" className="navServLink"><li className="dropdownItem">Crown Reduction</li></Link>
-                            <Link to="/service/cabling" className="navServLink"><li className="dropdownItem">Cabling</li></Link>
-                            <Link to="/service/stump-grinding" className="navServLink"><li className="dropdownItem">Stump Grinding</li></Link>
+                            <Link to="/services/tree-removal" className="navServLink"><li className="dropdownItem">Tree Removal</li></Link>
+                            <Link to="/services/ornamental-pruning" className="navServLink"><li className="dropdownItem">Ornamental Pruning</li></Link>
+                            <Link to="/services/crown-raising" className="navServLink"><li className="dropdownItem">Crown Raising</li></Link>
+                            <Link to="/services/crown-reduction" className="navServLink"><li className="dropdownItem">Crown Reduction</li></Link>
+                            <Link to="/services/cabling" className="navServLink"><li className="dropdownItem">Cabling</li></Link>
+                            <Link to="/services/stump-grinding" className="navServLink"><li className="dropdownItem">Stump Grinding</li></Link>
                         </ul>
                     </div>
                 </div>
