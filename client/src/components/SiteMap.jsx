@@ -34,11 +34,15 @@ const SiteMap = () => {
                         </div>
                         <div>
                             <h3 className="mapHeader">Services Available</h3>
-                            <p>Tree Trimming</p>
-                            <p>Tree Pruning</p>
-                            <p>Tree Removal</p>
-                            <p>Stump Grinding</p>
-                            <p>Cabling</p>
+                            <div className="siteLinks">
+                                <Link to="/services/tree-trimming" className="siteServLink">Tree Trimming</Link>
+                                <Link to="/services/tree-removal" className="siteServLink">Tree Removal</Link>
+                                <Link to="/services/ornamental-pruning" className="siteServLink">Ornamental Pruning</Link>
+                                <Link to="/services/crown-raising" className="siteServLink">Crown Raising</Link>
+                                <Link to="/services/crown-reduction" className="siteServLink">Crown Reduction</Link>
+                                <Link to="/services/cabling" className="siteServLink">Cabling</Link>
+                                <Link to="/services/stump-grinding" className="siteServLink">Stump Grinding</Link>
+                            </div>
                         </div>
                         <div className="shareDiv">
                             <h3 className="mapHeader">Visit us on...</h3>
@@ -48,10 +52,10 @@ const SiteMap = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="footer">
+                    {/* <div className="footer">
                         <h1 className="emergencyService">24 Hour Emergency Service</h1>
-                        {/* <img src={BBB_Accredited} alt="image_unavailable"  className="bbbImg"/> */}
-                    </div>
+                        <img src={BBB_Accredited} alt="image_unavailable"  className="bbbImg"/>
+                    </div> */}
                 </div>
             </div>
         </div>
